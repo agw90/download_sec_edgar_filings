@@ -1,6 +1,3 @@
-# dump S&P 500 companies and CIK's into a text file
-# output run_scrape to logfile: http://stackoverflow.com/questions/616645/how-do-i-duplicate-sys-stdout-to-a-log-file-in-python
-    
 from Tkinter import *
 import tkFileDialog as TkF
 from run_scrape import *
