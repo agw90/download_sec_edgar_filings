@@ -1,11 +1,6 @@
 # @alexpetralia
 # adapted from @rahulrrixe's code on GitHub: https://github.com/rahulrrixe
 
-"""
-TO DO:
-- checkbox: convert all files in directory tree to .pdf (an os command for: ls *.htm) using pdf utility
-"""
-
 from bs4 import BeautifulSoup # HTML parser
 import requests, os, re
 
