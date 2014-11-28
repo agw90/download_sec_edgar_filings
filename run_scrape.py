@@ -28,14 +28,3 @@ class runScrape:
                     crawler.scrape_filings(ticker.upper(), ft.upper(), cik, s)
         
         print "\nRuntime: %s seconds" % repr(np.round(time.time()-st))
-
-
-
-
-
-# PDF utility
-"""
-src='AAPL10-Q_2006-12-30.htm'
-dest="test.pdf"
-pisa.CreatePDF(file(src, 'r'), file(dest, 'wb'))
-"""
